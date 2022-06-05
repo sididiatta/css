@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cours html</title>
+    <!-- Icône de l'onglet -->
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<body>
+    <section class="sidi" id="sidi">
+        <div class="text">
+            <p>Accueil</p>
+            <p>A propos</p>
+            <p>Travail</p>
+            <p>CV</p>
+            <p>Contact</p>
+        </div>
+        
+</section>
+
+    <section class="ecriss">
+    <header>
+            <h1><span>&#9756;</span>  Texte - Titre H1</h1>
+            <p>Texte basique. <em>Voici un texte en italique</em>. <strong>Et un texte en gras </strong>. <span>L'élément en span ne revient pas à la ligne</span> </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptatum tenetur dolore commodi quis nostrum,<br> provident neque repellat sunt explicabo nam. Non assumenda rerum amet repellendus nemo sint repellat quos. </p>
+    </section>        
+    </header>
+    <section>
+        <div class="img">
+            <h2>Photos - Titre H2</h2>
+            <img src="diplome-titre-professionnel-DWWM.jpg" height="680" alt="image developpeur web">
+
+        </div>
+        <div class="liste">
+            <h3>Liste - Titre H3</h3>
+            <ul>
+                <li>UL = Unordered List</li>
+                <li>UL = unordered list</li>
+                <li>UL = unordered list</li>
+            </ul>
+            <ol>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+            </ol>
+        </div>
+        <div class="tableau">    
+            <h4>Tableaux - Titre H4</h4>
+            <table border="1" width="70%">
+                <!-- Légende-->
+                <caption>Populations d'europe</caption>
+                <!--En-tête-->
+                <thead>
+                    <tr>
+                        <th>Pays</th>
+                        <th>Population</th>
+                    </tr>
+                </thead>
+                <!--Corps du tableau-->
+                <tbody>
+                    <tr>
+                        <td>France</td>
+                        <td>66M</td>
+                    </tr>
+                    <tr>
+                        <td>Allemagne</td>
+                        <td>82M</td>
+                    </tr>
+                    <tr>
+                        <td>Espagne</td>
+                        <td>47M</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="lien">
+            <h5>Liens - Titre H5</h5>
+            <a href="https://htmlcheatsheet.com/">HTML Cheat Sheet</a>
+            <br>
+            <a href="https://WWW.toptal.com/designers/htmlarrows/symbols/" target="blank">Icones en HTML</a>
+        </div>
+        <div class="video">
+            <h6>Vidéo - Titre H6</h6>
+            <video src="Laptop - 1657.mp4" height="550" autoplay loop muted></video>
+        </div>
+    </section>
+    <br>
+    <section>
+        <h2>Formulaire</h2>
+        <form action="/action.php" method="post" >
+            <label for="name">Nom </label><input id="name" type="text" placeholder="Entrer votre nom"><br>
+            <label for="age">Age</label>
+            <input id="age" type="number" min="0" max="99" step="1" value="18"><br>
+            <!--Input select-->
+            <label for="gender">Gender</label>
+            <select id="gender">
+            <option value="homme">Homme</option>
+            <option selected value="femme">Femme</option>
+            </select><br>
+
+            <!--Input radio-->
+            <div>
+                <input type="radio" name="type" id="human">
+                <label for="human">Humain</label>
+
+                <input type="radio" name="type" checked id="dog">
+                <label for="human">Chien</label>
+
+                <input type="radio" name="type" id="cat">
+                <label for="human">Chat</label>
+            </div>
+            <textarea cols="30" rows="10" placeholder="Entrer votre demande ici"></textarea><br>
+            <!--Input Checkbox-->
+            <label><input type="checkbox" />Accepter les CGV</label>
+            <input type="submit" value="Valider"
+        </form>
+    </section>
+    <br>
+    <!--Mail & envoie de fichier-->
+    <footer>
+        <a href="mailto:juniorlilwyz@gmail.com">Ecriver moi</a>
+        <br>
+        
+    </footer>
+
+</body>
+</html> 

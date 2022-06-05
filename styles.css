@@ -1,0 +1,50 @@
+body{
+    background: url(website-rays-background-pattern-1637863.png);
+
+}
+.sidi{
+    width: 1250px;
+    height: 60px;
+    background: rgb(216, 227, 243);
+    border-style: double;
+    border-color: rgb(0, 60, 255);
+}
+.text{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: #0676D1;
+    text-decoration: underline;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text p {
+            color: #0676D1;
+}
+.text p :hover {
+            opacity: 1;
+}
+.img{
+position: relative;
+margin-left: 10%;
+}
+.video{
+position: relative;
+margin-left: 10%;
+}
+.ecriss{
+position: relative;
+margin-left: 12%;
+}
+.liste{
+position: relative;
+margin-left: 22%;
+}
+.tableau{
+position: relative;
+margin-left: 12%;
+}
+.lien{
+position: relative;
+margin-left: 40%;
+}
